@@ -1,0 +1,5 @@
+# called by load_inventory.py, pings all hosts
+- hosts: all
+  tasks:
+    - name: Ping
+      ping:
